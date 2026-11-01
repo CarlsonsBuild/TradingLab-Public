@@ -1,0 +1,90 @@
+{
+  "evidence_source_sha256": "af971d7ee83d27d7a9c4637a8de957e5d741c4e1c0b90eb811b0ba6d6c2923c9",
+  "videos": [
+    {
+      "file": "01_validation_overview.mp4",
+      "title": "What the validator actually does",
+      "description": "Four fixtures, four expected outcomes matched. Run the public code to reproduce each result. Public educational demo using synthetic candles; actual local outputs. PAPER ONLY. No private runtime or trading-performance claim.",
+      "sha256": "28da0cf3184f18b9fcaad6c25cdc745f080b2cc5391dc682e0552d9a0d788da0",
+      "duration_seconds": 29.966667,
+      "codec": "h264",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "full_decode": "passed",
+      "audio": "none; all information captioned",
+      "visual_review": "Reviewed all three decoded slides on 2026-11-01; no private source or account data",
+      "publication": "not uploaded",
+      "public_media_url": "https://carlsonsbuild.github.io/TradingLab-Public/media/01_validation_overview.mp4"
+    },
+    {
+      "file": "02_duplicate_timestamps.mp4",
+      "title": "Catch duplicate timestamps",
+      "description": "The same candle is supplied twice. The validator returns duplicate_timestamp. Public educational demo using synthetic candles; actual local outputs. PAPER ONLY. No private runtime or trading-performance claim.",
+      "sha256": "e931ea1b949a948b48708035c699fc64a6d05d6ba226bdf79972470fc73559f4",
+      "duration_seconds": 29.966667,
+      "codec": "h264",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "full_decode": "passed",
+      "audio": "none; all information captioned",
+      "visual_review": "Reviewed all three decoded slides on 2026-11-01; no private source or account data",
+      "publication": "not uploaded",
+      "public_media_url": "https://carlsonsbuild.github.io/TradingLab-Public/media/02_duplicate_timestamps.mp4"
+    },
+    {
+      "file": "03_impossible_prices.mp4",
+      "title": "Reject impossible candle prices",
+      "description": "High is 8 while low is 9. This deliberately invalid fixture returns invalid_ohlc. Public educational demo using synthetic candles; actual local outputs. PAPER ONLY. No private runtime or trading-performance claim.",
+      "sha256": "554fcb2307b4822dd9af8e2483f52bcbdffbcbb7b1d222e40f7a176f87aab5ea",
+      "duration_seconds": 29.966667,
+      "codec": "h264",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "full_decode": "passed",
+      "audio": "none; all information captioned",
+      "visual_review": "Reviewed all three decoded slides on 2026-11-01; no private source or account data",
+      "publication": "not uploaded",
+      "public_media_url": "https://carlsonsbuild.github.io/TradingLab-Public/media/03_impossible_prices.mp4"
+    },
+    {
+      "file": "04_stale_inputs.mp4",
+      "title": "Detect stale synthetic input",
+      "description": "The fixed clock is 12:10 UTC and the candle is 12:00 UTC. A 60-second age limit returns stale_data. Public educational demo using synthetic candles; actual local outputs. PAPER ONLY. No private runtime or trading-performance claim.",
+      "sha256": "523eaa92138d28fb7b348c16676b66332b74c32d5d35c7994cab3b18c4fde87b",
+      "duration_seconds": 29.966667,
+      "codec": "h264",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "full_decode": "passed",
+      "audio": "none; all information captioned",
+      "visual_review": "Reviewed all three decoded slides on 2026-11-01; no private source or account data",
+      "publication": "not uploaded",
+      "public_media_url": "https://carlsonsbuild.github.io/TradingLab-Public/media/04_stale_inputs.mp4"
+    },
+    {
+      "file": "05_reproduce_the_evidence.mp4",
+      "title": "Reproduce the public evidence",
+      "description": "Run 12 public unit tests with Python. They cover timestamps, candle prices, missing values, NaN, volume and stale input. Public educational demo using synthetic candles; actual local outputs. PAPER ONLY. No private runtime or trading-performance claim.",
+      "sha256": "bfb6f48a79fa301e078217d92e842abe0f6ddc6e0ac205d4cd2e5b7d191b0913",
+      "duration_seconds": 29.966667,
+      "codec": "h264",
+      "dimensions": [
+        720,
+        1280
+      ],
+      "full_decode": "passed",
+      "audio": "none; all information captioned",
+      "visual_review": "Reviewed all three decoded slides on 2026-11-01; no private source or account data",
+      "publication": "not uploaded",
+      "public_media_url": "https://carlsonsbuild.github.io/TradingLab-Public/media/05_reproduce_the_evidence.mp4"
+    }
+  ]
+}
