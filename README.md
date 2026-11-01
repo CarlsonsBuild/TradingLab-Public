@@ -18,7 +18,7 @@ Open `index.html` locally or visit https://carlsonsbuild.github.io/TradingLab-Pu
 Run `python -m unittest test_public_demo -v` in this directory. Python 3.11+; standard library only. `evidence.json` contains measured local outputs for synthetic inputs and a source hash. These are educational validator results, not private runtime tests, financial performance, or bot qualification.
 
 ## Support policy
-Public support, donation, sponsorship and volunteer pages are linked from support.html. Venmo and Cash App handles were supplied by the project operator. Ko-fi and GoFundMe payment links are not included pending their account setup checks. Any future donations fund development; they provide no equity, investment interest or entitlement to trading returns.
+Public support, donation, sponsorship and volunteer pages are linked from support.html. Venmo and Cash App handles were supplied by the project operator. Ko-fi ownership, connected payments and removal of its location warning were checked before linking the creator page. Its initial US $100,000 development goal is a fundraising target, not a verified cost estimate or delivery guarantee. A separate TradingLab GoFundMe campaign has not been created; no campaign link is invented. Donations fund development; they provide no equity, investment interest or entitlement to trading returns.
 
 ## Public demonstration videos
 The `media/` videos use synthetic fixtures and measured public-validator results. Their source hashes and review status are in `video-evidence.json`. They contain captions and no audio. No private TradingLab implementation or operational data is included.
