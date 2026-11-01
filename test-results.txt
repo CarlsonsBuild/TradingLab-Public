@@ -1,0 +1,17 @@
+test_bad_timestamp (test_public_demo.ValidatorTests.test_bad_timestamp) ... ok
+test_duplicate (test_public_demo.ValidatorTests.test_duplicate) ... ok
+test_empty (test_public_demo.ValidatorTests.test_empty) ... ok
+test_future (test_public_demo.ValidatorTests.test_future) ... ok
+test_missing (test_public_demo.ValidatorTests.test_missing) ... ok
+test_naive (test_public_demo.ValidatorTests.test_naive) ... ok
+test_nan (test_public_demo.ValidatorTests.test_nan) ... ok
+test_negative_volume (test_public_demo.ValidatorTests.test_negative_volume) ... ok
+test_order (test_public_demo.ValidatorTests.test_order) ... ok
+test_price_range (test_public_demo.ValidatorTests.test_price_range) ... ok
+test_stale (test_public_demo.ValidatorTests.test_stale) ... ok
+test_valid (test_public_demo.ValidatorTests.test_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+OK
